@@ -933,5 +933,7 @@ canvas.addEventListener('keydown', onKeyDown, false);
 canvas.setAttribute('tabindex','0');
 canvas.focus();
 welcomeScreen();
+function donate(){
 
+}
 
