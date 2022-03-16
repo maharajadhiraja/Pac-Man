@@ -5,7 +5,7 @@ var CANVAS_WIDTH = 510;
 var CANVAS_HEIGHT = 510;
 var canvas = document.getElementById(canvasID);
 var ctx = canvas.getContext("2d");
-
+var gif;
 // game grid
 var GRID_WIDTH = 30;
 var GRID_HEIGHT = 30;
@@ -179,7 +179,9 @@ var noBeanIndex=noBean.length;
 // power beans in maze
 var powerBeans = [[0,0], [2,13], [16,4], [16,16], [2,5], [14,10]];
 
-
+function preload(){
+gif  = loadImage("giphyf.gif")
+}
 // ghost house
 var ghostHouse = [];
 var ghostHouseIndex = 0;
